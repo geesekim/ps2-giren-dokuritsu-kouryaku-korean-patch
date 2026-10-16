@@ -1,0 +1,25 @@
+{
+  "candidate": "RC009",
+  "game_execution": "NOT_RUN",
+  "emulator": "NOT_RUN",
+  "EEVM_GS_hardware": "NOT_RUN",
+  "cold_boot": "NOT_RUN",
+  "save_load": "NOT_RUN",
+  "canonical": false,
+  "release_ready": false,
+  "publication_basis": "User explicitly requested publication of current state as ver.1.0. These QA flags are retained independently of publication.",
+  "static_scope": {
+    "guide_panels": 175,
+    "guide_missing_glyphs": 0,
+    "guide_cursor_or_ink_overflow": 0,
+    "guide_footer_overlap": 0,
+    "chronology_label_fields_checked": 125,
+    "M0855_M0856_approved_wording_and_newlines_preserved": true
+  },
+  "remaining": [
+    "알려진 표시 소비처의 정적 검증 범위이며 전체 화면 검증은 미완료",
+    "PLAN 이름 전체 표시 경로·간접 소비처 및 동적 RAM 소유권 미확정",
+    "미전사 이미지 문자·동영상 문자 잔존",
+    "한글 이름 입력 및 전체 게임 실행·저장·불러오기 미검증"
+  ]
+}

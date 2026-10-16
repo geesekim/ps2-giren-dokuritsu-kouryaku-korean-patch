@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "tag": "v1.0",
+  "candidate": "RC009",
+  "source": {
+    "sha256": "6fb2c79197954c4170155d42b35834e5ef9c808d71c09e4ccec430fc01be6758",
+    "size": 4407918592,
+    "product": "SLPS-25212"
+  },
+  "target": {
+    "sha256": "73ff13caed5a00044c414677ce4669da245fb4de1dfc7e1e6504c03b6b21d9c6",
+    "size": 4407918592
+  },
+  "patch": {
+    "file": "GIREN_KOURYAKU_PS2_KO_1.0.xdelta",
+    "sha256": "876230564a35634b64b2ef4e1ff7e6d817dbd88664daf9215184497b7775cf09",
+    "size": 1121491,
+    "format": "VCDIFF, legacy application header, no armor"
+  },
+  "static_iso_readback": "PASS_SCOPED_STATIC_INTEGRATED_ISO_READBACK",
+  "package_roundtrip": "PASS_FULL_BYTE_COMPARE",
+  "runtime": "NOT_RUN",
+  "canonical": false,
+  "release_ready": false,
+  "roundtrip_compared_bytes": 4407918592,
+  "apply_script": "PASS_REAL_SOURCE_AND_TARGET_SHA256",
+  "negative_checks": {
+    "existing_output_preserved": true,
+    "invalid_source_rejected_without_output": true,
+    "temporary_outputs_cleaned": true
+  },
+  "xdelta3_encoder_version": "3.2.0"
+}
