@@ -2,7 +2,7 @@
 
 PS2 일본판 공략지령서(SLPS-25212)용 한국어 차분 패치입니다.
 
-- [ver.1.0 다운로드](https://github.com/geesekim/giren-ps2-kouryaku-korean-patch/releases/tag/v1.0)
+- [ver.1.0 다운로드](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/releases/tag/v1.0)
 - [적용 안내](output/1.0/적용안내.txt)
 - [체크섬](output/1.0/SHA256SUMS.txt)
 - [정적 검증 및 패키지 정보](output/1.0/verification.json)
