@@ -1,0 +1,51 @@
+# 기동전사 건담 기렌의 야망 지온독립전쟁기 공략지령서 PS2 한국어화 1.1
+
+일본판 원본 ISO(`SLPS-25212`)에 한 번 적용하는 누적 패치입니다. 이전 한글 패치 ISO에는 중복 적용하지 않습니다. [Release 다운로드](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/releases/tag/v1.1) · [xdelta 패치](GIREN_KOURYAKU_PS2_KO_1.1.xdelta) · [적용 안내](적용안내.txt) · [동봉 파일](output/1.1)
+
+## 1.1 변경점
+
+- 영상 특전 86개에 한국어 자막을 추가했습니다. 본편과 동일한 영상의 확정 문구를 재사용하고, 짧은 발화와 가사를 추가 검수해 보완했습니다.
+- 영상 시작 시 자막 로더가 건너뛰던 문제를 수정했습니다.
+- 영상 목록의 ‘야망·계보·독립’ 분류를 원본처럼 오른쪽 열에 맞추고, 설명문의 영문·숫자 높이를 보정했습니다.
+- 건담 퍼즐의 제목 채움과 그림자, ‘돌아가기’의 가로줄, 조작 설명에 남은 원문 획을 수정했습니다.
+- 한글 이름 입력용 처리와 저장 목록의 이름 표시를 보완하고, 작성·인물·병기·계급·지형 등의 남은 고정 문구를 추가 번역했습니다.
+
+1.1의 새 실행 검수는 퍼즐 스테이지 1의 제목·버튼·조작 설명·게임 복귀를 확인했습니다. 영상은 앞선 동일 코드 후보에서 5개 선택 영상의 자막·종료 후 복귀를 확인했습니다. 86개 영상 전체 재생, 퍼즐 나머지 스테이지 실제 진입, 전체 이름 입력 경로와 정상 저장→새 프로세스 불러오기는 전수 검증하지 않았습니다. 원래 영상에 박힌 일본어 문구와 작은 이미지 캡션 등 일부 보류 항목은 남아 있습니다. 자세한 범위는 [검증 정보](verification.json)와 [검수 요약](runtime-summary.json)을 참고하세요.
+
+폰트·리소스 출처와 라이선스 고지는 [동봉 문서](RESOURCE-NOTICES.txt)를 따릅니다. 원본 ISO·BIOS·세이브·카드·원본 폰트는 포함하지 않습니다.
+
+---
+
+## 1.0 기록
+
+아래는 기존 1.0의 설명과 당시 검증 범위입니다.
+
+# 기동전사 건담 기렌의 야망 지온독립전쟁기 공략지령서 PS2 한국어화 1.0
+
+PS2 일본판 **기동전사 건담 기렌의 야망 지온독립전쟁기 공략지령서**(제품 번호 `SLPS-25212`)를 대상으로 한 한국어 패치입니다. [Release 다운로드](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/releases/tag/v1.0) · [xdelta 패치](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/GIREN_KOURYAKU_PS2_KO_1.0.xdelta) · [적용 안내](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/적용안내.txt) · [동봉 파일](output/1.0)
+
+## 작업 범위
+
+- 메뉴·설명·연표 등의 본문과 주요 UI 문구를 한국어로 적용했습니다.
+- 인물·기체·무장 등의 이름을 본편 지온독립전쟁기와 액시즈의 위협의 번역 기준에 맞춰 한국어로 적용했습니다.
+- 타이틀, 메인 메뉴와 메뉴 하단 로고 등 일부 이미지 문구를 한국어로 교체했습니다.
+- 본편의 8/16/22px 렌더링 규칙을 참고해 한글 표시를 처리하고, 구두점 간격과 설명문 줄바꿈을 조정했습니다.
+
+현재 적용 범위를 정리한 문서이며, 전체 게임의 모든 문구와 화면에 대한 실행 검증이 완료된 것은 아닙니다. 배포본 RC009의 게임 실행·콜드부팅·저장·불러오기 검증은 **NOT_RUN**입니다. 미번역 이미지·동영상 문자, 한글 이름 입력 및 일부 이름의 표시 경로가 남아 있습니다. [정적 검증 정보](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/verification.json)와 [검증 범위·남은 항목](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/runtime-summary.json)을 참고하세요.
+
+## 사용 폰트
+
+- **함초롬돋움**: 본문·이름과 일부 이미지 문자.
+- **솔뫼 김대건체**: 메인 메뉴 이미지 문자.
+- **나눔명조**: 일부 이미지 문자.
+
+함초롬돋움은 한글과컴퓨터·윤디자인, 솔뫼 김대건체는 Design210·SUMMITDESIGN, 나눔명조는 NAVER·FONTRIX의 글꼴입니다. [리소스 출처](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/RESOURCE-NOTICES.txt)를 동봉하며, 나눔명조는 SIL Open Font License 1.1에 따라 사용하고 [라이선스 문서](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/Nanum-OFL.txt)를 동봉합니다. 폰트 파일은 배포하지 않습니다.
+
+## 원본과 달라진 부분
+
+- 일본어 글리프와 일부 이미지 문구를 한글로 교체하고, 한글 표시에 필요한 처리를 추가했습니다.
+- 번역문 길이에 맞춰 일부 라벨과 안내 문구의 위치를 조정했습니다. 설명문 줄바꿈은 어절과 의미 단위를 고려하면서 표시 영역을 활용하도록 재배치했습니다.
+- 한글에 맞춰 쉼표·마침표·괄호·콜론의 모양과 표시 폭을 조정하고, 결정·돌아가기 안내의 표기와 배치를 수정했습니다.
+- 타이틀과 메뉴 하단 로고는 원본의 세로로 긴 형태와 획 대비를 참고한 별도 한글 도안으로 교체했습니다. 타이틀 도안 제작에 OpenAI image generation을 사용했으며, 게임용 색·음영·크기·위치를 별도로 조정했습니다.
+
+일본판 공략지령서 원본 ISO에 한 번 적용하는 누적 패치입니다. 본편이나 기존 한글 패치 ISO에는 적용하지 않습니다. 원본·결과 ISO의 SHA-256과 적용 방법은 [적용 안내](https://github.com/geesekim/ps2-giren-dokuritsu-kouryaku-korean-patch/blob/v1.0/output/1.0/적용안내.txt)에 수록했습니다.

@@ -1,0 +1,27 @@
+{
+  "version": "1.1",
+  "tag": "v1.1",
+  "candidate": "RC014 v2",
+  "source": {
+    "product": "SLPS-25212",
+    "sha256": "6fb2c79197954c4170155d42b35834e5ef9c808d71c09e4ccec430fc01be6758",
+    "size": 4407918592
+  },
+  "target": {
+    "sha256": "605aa86b07cf829d700ce1ff80b42c44691cd572543de817a82819fdf1c31b58",
+    "size": 4418881536
+  },
+  "patch": {
+    "file": "GIREN_KOURYAKU_PS2_KO_1.1.xdelta",
+    "sha256": "17cf51e600c757d347b5d3ffdf8e92891c5390dac9d3883ea3ff8c811b3972b6",
+    "size": 1560891,
+    "format": "VCDIFF, no armor, single unsplit file"
+  },
+  "static_iso_readback": "PASS_SCOPED_STATIC_RC014_V2",
+  "runtime": "PASS_SCOPED_STAGE1;SELECTED_PARENT_MOVIES5;FULL_GAME_NOT_RUN",
+  "original_movie_audio95_preserved": true,
+  "main_reused_subtitle_cues538_preserved": true,
+  "canonical": false,
+  "release_ready": false,
+  "publication_basis": "User accepted this candidate and requested minor version registration/publication. Full QA remains independently scoped."
+}

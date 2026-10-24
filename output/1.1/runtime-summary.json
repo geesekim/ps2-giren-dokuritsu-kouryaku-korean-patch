@@ -1,0 +1,35 @@
+{
+  "version": "1.1",
+  "candidate": "RC014 v2",
+  "cold_boot": "PASS_SCOPED_PUZZLE_STAGE1",
+  "puzzle": {
+    "stage1_title_return_button_howto_return_to_game": "PASS",
+    "stages2_to9_runtime": "NOT_RUN_LOCKED_QA_CARD",
+    "all9_title_image_readback": "PASS"
+  },
+  "movie": {
+    "subtitle_banks": 86,
+    "cues": 1279,
+    "main_reused_cues": 538,
+    "selected_parent_runtime_movies": [
+      "MOV00",
+      "MOV01",
+      "MOV30",
+      "MOV46",
+      "MOV84"
+    ],
+    "reviewed_parent_cues": 310,
+    "full86_runtime": "NOT_RUN",
+    "RC014_movie_code_banks_and_titles_preserved": true
+  },
+  "full_game_runtime": "NOT_RUN",
+  "normal_SAVE_clean_exit_new_process_LOAD": "NOT_RUN",
+  "canonical": false,
+  "release_ready": false,
+  "publication_basis": "User explicitly accepted the current RC014 v2 scope and requested a minor version publication. Publication does not expand QA coverage.",
+  "remaining": [
+    "원화/영상에 합쳐진 일본어 및 작은 이미지 캡션 등 보류 항목 잔존",
+    "원본 영상의 일본어 홍보문구와 MOV00 자막184가 겹치는 구간 보류",
+    "전체 이름 입력 경로·간접 소비처·게임 전수 실행·정상 저장/새 프로세스 불러오기 미검증"
+  ]
+}

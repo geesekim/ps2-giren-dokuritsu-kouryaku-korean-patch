@@ -1,0 +1,17 @@
+사용 리소스와 출처 — 공략지령서 한국어 패치 ver.1.0
+
+게임 원작: BANDAI / 創通・サンライズ. 원작의 권리는 각 권리자에게 있습니다.
+이 패키지는 원본 게임을 포함하지 않는 차분 패치입니다.
+
+함초롬돋움: 한글과컴퓨터 / 윤디자인. https://www.hancom.com/
+  본문·이름 및 일부 이미지 문자의 한글 래스터. 본편의 HCR8/16/22 규칙을 참고했습니다.
+솔뫼 김대건체: COPYRIGHT (C) SUMMITDESIGN ALL RIGHT RESERVED.
+  설치된 폰트 name table의 제작사: Design210, www.design210.com
+  메인 메뉴 문자에 사용했습니다.
+나눔명조: NAVER / FONTRIX. https://hangeul.naver.com/font
+  일부 이미지 문자에 사용했습니다. SIL OFL 1.1 전문은 Nanum-OFL.txt에 수록했습니다.
+타이틀/하단 로고: 원본 형태를 참고해 별도 한글 도안을 제작했습니다.
+  타이틀 도안 제작에 OpenAI image generation을 사용했으며 게임용 색·음영·배치를 별도로 처리했습니다.
+
+폰트 원본 파일, 원본 게임 이미지, 원본 게임 데이터는 별도 파일로 포함하지 않습니다.
+본 문서는 전체 패키지에 새로운 라이선스를 부여하지 않습니다.
